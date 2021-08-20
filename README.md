@@ -1,19 +1,23 @@
-Ejecute las migraciones:
+# amoba-api
+
+### Configure su archivo .env
+
+### Ejecute las migraciones:
 ```
 php artisan migrate
 ```
 
-En caso de no contar con Laravel Passport:
+### En caso de no contar con Laravel Passport:
 ```
 composer require laravel/passport
 ```
 
-Luego, para generar los secure access tokens ejecute:
+### Luego, para generar los secure access tokens ejecute:
 ```
 php artisan passport:install
 ```
 
-Para iniciar el servidor, el comando:
+### Para iniciar el servidor, el comando:
 ```
 php artisan serve
 ```
